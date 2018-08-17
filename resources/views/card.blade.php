@@ -12,7 +12,7 @@
     <section class="jumbotron text-center">
         <div class="container">
             <h1 class="jumbotron-heading">{{ $card['name'] }}</h1>
-            <p class="lead text-muted">1 of {{ $card['supply'] }}</p>
+            <p class="lead text-muted">1 of {{ $card['issued'] }}</p>
             <p>
                 <a href="{{ route('home') }}" class="btn btn-secondary my-2">&laquo; Back</a>
                 <a href="{{ $card['link'] }}" class="btn btn-primary my-2" target="_blank">Info &raquo;</a>
