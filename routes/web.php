@@ -12,4 +12,4 @@
 */
 
 Route::get('/', 'HomeController@index')->name('home');
-Route::get('/{card}', 'CardController@show')->name('card');
+Route::get('/{card}', 'CardsController@show')->name('card');
