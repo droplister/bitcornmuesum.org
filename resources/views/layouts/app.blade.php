@@ -22,24 +22,11 @@
 </head>
 <body>
     <div id="app">
-        <div class="d-none d-md-block">
-            @yield('header')
+        @yield('header')
 
-            <main class="py-4">
-                @yield('content')
-            </main>
-        </div>
-        <div class="d-block d-md-none">
-            <section class="jumbotron text-center">
-                <div class="container my-5">
-                    <h1 class="jumbotron-heading">Desktop Only</h1>
-                    <p class="lead text-muted">Our Apologies</p>
-                    <p>
-                        <a href="https://t.me/bitcorns" class="btn btn-primary my-5" target="_blank">Telegram</a>
-                    </p>
-                </div>
-            </section>
-        </div>
+        <main class="py-4">
+            @yield('content')
+        </main>
     </div>    
     <!-- Wikplayer https://www.wikplayer.com -->
     <script type="text/javascript" src="https://www.wikplayer.com/code.js" 
