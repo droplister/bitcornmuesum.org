@@ -9,6 +9,20 @@
   --jumbotron-padding-y: 3rem;
 }
 
+.frame {
+  position: relative;
+}
+
+.gilded {
+  position: relative;
+}
+
+.artwork {
+  position: absolute;
+  top: 140;
+  left: 140;
+}
+
 .jumbotron {
   padding-top: var(--jumbotron-padding-y);
   padding-bottom: var(--jumbotron-padding-y);
