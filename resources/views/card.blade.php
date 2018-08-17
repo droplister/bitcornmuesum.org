@@ -1,9 +1,11 @@
 @extends('layouts.app')
 
+@section('title', $card['name'])
+
 @section('content')
     <section class="my-5 text-center">
         <div class="frame">
-            <img src="{{ asset('/gilded-frame.png') }}" class="img-responsive gilded" />
+            <img src="{{ asset('/frame.png') }}" class="img-responsive gilded" />
             <img src="{{ $card['card'] }}" class="img-responsive artwork" />
         </div>
     </section>
