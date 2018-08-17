@@ -14,7 +14,7 @@
             <div class="col">
                 <ul>
                     @foreach($cards as $card)
-                    <li><a href="{{ route('card', ['card' => $card->name]) }}"></li>
+                    <li><a href="{{ route('card', ['card' => $card['name']]) }}"></li>
                     @endforeach
                 </ul>
             </div>
