@@ -24,9 +24,11 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $cards = $this->getCards();
+        $cards = collect($this->getCards());
 
-        return view('home', compact('cards'));
+        $chunk = $cards->chunk($cards->count() / 4);
+
+        return view('home', compact('chunk'));
     }
 
     /**
