@@ -59,8 +59,10 @@
             @yield('content')
         </main>
     </div>
+    <!-- Wikplayer https://www.wikplayer.com -->
     <script type="text/javascript" src="https://www.wikplayer.com/code.js" 
-    data-config="{'skin':'skins/wikfull/plainBlack/skin.css','volume':50,'autoplay':true,'shuffle':false,'repeat':0,'showcomment':false,'marqueetexton':false,'placement':'bottom','showplaylist':false,'playlist':[{'title':'Classical%20Music','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DSsZRci3sA4I'}]}" ></script>
+    data-config="{'skin':'skins/wikfull/plainBlack/skin.css','volume':50,'autoplay':true,'shuffle':true,'repeat':1,'showcomment':false,'marqueetexton':false,'placement':'bottom','showplaylist':false,'playlist':[{'title':'Piano%20Sonata%20No.%2011','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DoszouIHmDqc'},{'title':'Requiem%20in%20D%20Minor','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DE6SWlwN4opk'},{'title':'The%20Marriage%20of%20Figaro','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DKfEQuj7tbKE'},{'title':'Peque%C3%B1a%20Serenata%20Nocturna','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dw_Us01bkQgo'},{'title':'Serenade%20No.%206','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DuVVu-g8AybA'},{'title':'Laudate%20Dominum','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DCp5-4jyp_JM'}]}" ></script>
+    <!-- Wikplayer code end -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112477384-10"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
