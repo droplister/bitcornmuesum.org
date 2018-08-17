@@ -31,9 +31,12 @@
         </div>
         <div class="d-block d-md-none">
             <section class="jumbotron text-center">
-                <div class="container">
+                <div class="container my-5">
                     <h1 class="jumbotron-heading">Desktop Only</h1>
                     <p class="lead text-muted">Our Apologies</p>
+                    <p>
+                        <a href="https://t.me/bitcorns" class="btn btn-primary my-5" target="_blank">Telegram</a>
+                    </p>
                 </div>
             </section>
         </div>
