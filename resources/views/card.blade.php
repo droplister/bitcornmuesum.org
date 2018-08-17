@@ -15,7 +15,7 @@
             <p class="lead text-muted">{{ $card['burned'] }} of {{ $card['issued'] }}</p>
             <p>
                 <a href="{{ route('home') }}" class="btn btn-secondary my-2">&laquo; Back</a>
-                <a href="{{ $card['link'] }}" class="btn btn-primary my-2" target="_blank">More &raquo;</a>
+                <a href="{{ $card['link'] }}" class="btn btn-primary my-2" target="_blank">Info &raquo;</a>
             </p>
         </div>
     </section>

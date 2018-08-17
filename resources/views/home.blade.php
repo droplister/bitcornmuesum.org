@@ -43,7 +43,7 @@
             <p class="lead text-muted">Rare, certified, bitcorn.</p>
         </div>
     </section>
-    <div class="container">
+    <div class="container mb-5">
         <div class="row">
             @foreach($chunk as $cards)
             <div class="col">
