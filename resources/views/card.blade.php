@@ -6,7 +6,7 @@
     <section class="my-5 text-center">
         <div class="frame">
             <img src="{{ asset('/frame.png') }}" class="img-responsive gilded" />
-            <img src="{{ $card['card'] }}" class="img-responsive artwork" />
+            <img src="{{ $card['card'] }}" class="img-responsive artwork" width="375" height="520" />
         </div>
     </section>
     <section class="jumbotron text-center">
