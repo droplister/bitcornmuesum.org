@@ -25,7 +25,7 @@
         <div class="navbar navbar-dark bg-dark box-shadow">
             <div class="container d-flex justify-content-between">
                 <a href="{{ route('home') }}" class="navbar-brand d-flex align-items-center">
-                    <i class="fa fa-university mr-1"></i>
+                    <i class="fa fa-university mr-2"></i>
                     <strong>Bitcorn Museum</strong>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
