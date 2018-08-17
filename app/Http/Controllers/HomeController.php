@@ -26,7 +26,7 @@ class HomeController extends Controller
     {
         $cards = collect($this->getCards());
 
-        $chunk = $cards->chunk($cards->count() / 4);
+        $chunk = $cards->chunk(ceil($cards->count() / 5));
 
         return view('home', compact('chunk'));
     }
