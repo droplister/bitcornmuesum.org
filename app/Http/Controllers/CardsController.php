@@ -40,6 +40,6 @@ class CardsController extends Controller
 
         if ($this->curl->error) return []; // Some Error
 
-        return json_decode($curl->this->response, true);
+        return json_decode($this->curl->response, true);
     }
 }
