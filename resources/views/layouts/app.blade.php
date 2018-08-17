@@ -59,7 +59,7 @@
             @yield('content')
         </main>
     </div>
-    <script type="text/javascript" src="http://scmplayer.co/script.js" 
+    <script type="text/javascript" src="https://scmplayer.co/script.js" 
     data-config="{'skin':'skins/black/skin.css','volume':50,'autoplay':true,'shuffle':false,'repeat':1,'placement':'bottom','showplaylist':false,'playlist':[{'title':'Classical Music','url':'https://www.youtube.com/watch?v=SsZRci3sA4I'}]}" ></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112477384-10"></script>
     <script>
