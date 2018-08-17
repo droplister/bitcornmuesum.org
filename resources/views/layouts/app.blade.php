@@ -40,7 +40,7 @@
     </div>    
 <!-- Wikplayer https://www.wikplayer.com -->
     <script type="text/javascript" src="https://www.wikplayer.com/code.js" 
-    data-config="{'skin':'skins/wikfull/plainBlack/skin.css','volume':50,'autoplay':true,'shuffle':true,'repeat':1,'showcomment':false,'marqueetexton':false,'placement':'bottom','showplaylist':false,'playlist':[{'title':'Classical%20Music','url':'https%3A%2F%2Fbitcornmuseum.org%2Fmusic.mp3'}]}" ></script>
+    data-config="{'skin':'skins/wikfull/plainBlack/skin.css','volume':50,'autoplay':true,'shuffle':true,'repeat':1,'showcomment':false,'marqueetexton':false,'placement':'bottom','showplaylist':false,'playlist':[{'title':'Classical%20Music','url':'https%3A%2F%2Fbitcornmuseum.org%2Fstorage%2Fmusic.mp3'}]}" ></script>
     <!-- Wikplayer code end -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112477384-10"></script>
     <script>
