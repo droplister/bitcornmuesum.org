@@ -45,7 +45,7 @@
             <div class="navbar navbar-dark bg-dark box-shadow">
                 <div class="container d-flex justify-content-between">
                     <a href="#" class="navbar-brand d-flex align-items-center">
-                        <i class="fa fa-university"></i>
+                        <i class="fa fa-university mr-1"></i>
                         <strong>Bitcorn Museum</strong>
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,8 +59,8 @@
             @yield('content')
         </main>
     </div>
-    <script type="text/javascript" src="http://scmplayer.co/script.js" 
-    data-config="{'skin':'skins/black/skin.css','volume':50,'autoplay':true,'shuffle':false,'repeat':1,'placement':'bottom','showplaylist':false,'playlist':[{'title':'Classical Music','url':'https://www.youtube.com/watch?v=SsZRci3sA4I'}]}" ></script>
+    <script type="text/javascript" src="https://www.wikplayer.com/code.js" 
+    data-config="{'skin':'skins/wikfull/plainBlack/skin.css','volume':50,'autoplay':true,'shuffle':false,'repeat':0,'showcomment':false,'marqueetexton':false,'placement':'bottom','showplaylist':false,'playlist':[{'title':'Classical%20Music','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DSsZRci3sA4I'}]}" ></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112477384-10"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
