@@ -10,36 +10,38 @@
 }
 
 .frame {
-  width: 325px;
+  z-index: 2;
+  width: 321px;
   margin: 0 auto;
   position: relative;
 }
 
 .gilded {
-  width: 325px;
+  z-index: 2;
+  width: 321px;
   position: relative;
 }
 
 .artwork {
-  position: absolute;
+  z-index: 1;
+  top: 67px;
+  left: 68px;
   width: 190px;
   height: 260px;
-  top: 70px;
-  left: 70px;
+  position: absolute;
 }
 
 @media (min-width: 768px) {
-  .frame {
-    width: 650px;
-  }
+  .frame,
   .gilded {
-    width: 650px;
+    width: 640px;
   }
   .artwork {
+    z-index: 1;
+    top: 134px;
+    left: 138px;
     width: 375px;
     height: 520px;
-    top: 139px;
-    left: 143px;
   }
 }
 
